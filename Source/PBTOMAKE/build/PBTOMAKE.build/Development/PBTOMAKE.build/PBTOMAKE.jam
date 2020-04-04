@@ -1,0 +1,100 @@
+# Jamfile for configuration Development of target "PBTOMAKE" of project "PBTOMAKE"
+
+
+JAVAC_SOURCE_FILE_ENCODING default = MacRoman ;
+
+# Implicitly computed project-wide settings for project "PBTOMAKE"
+export deferred ANTICIPATED_BUILT_PRODUCTS_DIR = $(CONFIGURATION_BUILD_DIR) ;
+export deferred ANTICIPATED_TARGET_BUILD_DIR = $(CONFIGURATION_BUILD_DIR) ;
+export deferred BUILD_STYLE = "$(CONFIGURATION)" ;
+export deferred CONFIGURATION = Development ;
+export deferred CONFIGURATION_BUILD_DIR = $(BUILD_DIR)/$(CONFIGURATION) ;
+export deferred CONFIGURATION_TEMP_DIR = $(PROJECT_TEMP_DIR)/$(CONFIGURATION) ;
+export deferred DEVELOPMENT_LANGUAGE = English ;
+export deferred GROUP = jim ;
+export deferred PROJECT = $(PROJECT_NAME) ;
+export deferred PROJECT_DIR = /Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE ;
+export deferred PROJECT_FILE_PATH = /Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/PBTOMAKE.xcodeproj ;
+export deferred PROJECT_NAME = PBTOMAKE ;
+export deferred PROJECT_TEMP_DIR = $(OBJROOT)/$(PROJECT_NAME).build ;
+export deferred SRCROOT = /Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE ;
+export deferred TARGET_TEMP_DIR = $(CONFIGURATION_TEMP_DIR)/$(TARGET_NAME).build ;
+export deferred TEMP_DIR = $(TARGET_TEMP_DIR) ;
+export deferred USER = jim ;
+
+# Project-wide settings for project "PBTOMAKE"
+
+# User-defined project-wide settings for project "PBTOMAKE"
+
+# Build Settings for target "PBTOMAKE"
+
+# Implicitly computed build settings for target "PBTOMAKE"
+export deferred CLONE_HEADERS = NO ;
+export deferred PFE_FILE_C_DIALECTS = c++ ;
+export deferred TARGETNAME = $(TARGET_NAME) ;
+export deferred TARGET_NAME = PBTOMAKE ;
+
+# User-defined build settings for target "PBTOMAKE"
+export deferred COPY_PHASE_STRIP = NO ;
+export deferred FRAMEWORK_SEARCH_PATHS =  ;
+export deferred GCC_DYNAMIC_NO_PIC = NO ;
+export deferred GCC_ENABLE_FIX_AND_CONTINUE = YES ;
+export deferred GCC_GENERATE_DEBUGGING_SYMBOLS = YES ;
+export deferred GCC_OPTIMIZATION_LEVEL = 0 ;
+export deferred HEADER_SEARCH_PATHS =  ;
+export deferred INSTALL_PATH = "$(HOME)/bin" ;
+export deferred LIBRARY_SEARCH_PATHS =  ;
+export deferred OPTIMIZATION_CFLAGS = -O0 ;
+export deferred OTHER_CFLAGS =  ;
+export deferred OTHER_LDFLAGS =  ;
+export deferred OTHER_REZFLAGS =  ;
+export deferred PRODUCT_NAME = pbtomake ;
+export deferred REZ_EXECUTABLE = YES ;
+export deferred SECTORDER_FLAGS =  ;
+export deferred WARNING_CFLAGS = -Wmost -Wno-four-char-constants -Wno-unknown-pragmas ;
+export deferred ZERO_LINK = YES ;
+
+# Target "PBTOMAKE"
+
+ConditionalDefinitions _ ;
+commitdeferred ;
+
+
+BeginTool "<pbtomake>pbtomake$(TOOL_SUFFIX)" ;
+
+# Headers
+HEADERS =
+	../BASE_PC/CBufFile.h
+	../BASE_PC/tgtypes.h
+	../BASE_PC/Dohickies/CSymbol.h
+	../BASE_PC/Dohickies/CLexFile.h
+	../BASE_PC/Dohickies/CpbxLexFile.h
+	../BASE_PC/Dohickies/CTokFile.h
+	../CMaker.h
+	../BASE_PC/base.h
+	../BASE_PC/cutil.h ;
+ProcessHeaders "<pbtomake>pbtomake$(TOOL_SUFFIX)" : "$(HEADERS)" : "" : BPTag000 ;
+
+# Sources
+SOURCES =
+	../main.cp
+	../BASE_PC/CBufFile.cp
+	../BASE_PC/Dohickies/CSymbol.cp
+	../BASE_PC/Dohickies/CLexFile.cp
+	../BASE_PC/Dohickies/CpbxLexFile.cp
+	../BASE_PC/Dohickies/CTokFile.cp
+	../BASE_PC/cutil.cp
+	../CMaker.cp ;
+ProcessSources "<pbtomake>pbtomake$(TOOL_SUFFIX)" : "$(SOURCES)" : BPTag000 : BPTag001 ;
+
+# Frameworks & Libraries
+FRAMEWORKS_AND_LIBRARIES = ;
+ProcessFrameworksAndLibraries "<pbtomake>pbtomake$(TOOL_SUFFIX)" : "$(FRAMEWORKS_AND_LIBRARIES)" : BPTag001 : BPTag002 ;
+
+# Rez Files
+REZ_FILES = ;
+ProcessRezFiles "<pbtomake>pbtomake$(TOOL_SUFFIX)" : "$(REZ_FILES)" : BPTag002 : BPTag003 ;
+
+include $(TEMP_DIR)/HeaderDependencies.jam ;
+EndTool "<pbtomake>pbtomake$(TOOL_SUFFIX)" ;
+

@@ -1,0 +1,50 @@
+rule DefineHeaderDependencies
+{
+	INCLUDES "$(PROJECT_DIR)/../main.cp" : "/usr/include/stdio.h" ;
+	INCLUDES "$(PROJECT_DIR)/../main.cp" : "/usr/include/stdio.h" ;
+	INCLUDES "$(PROJECT_DIR)/../main.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/../BASE_PC/base.h" ;
+	INCLUDES "$(PROJECT_DIR)/../main.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/../BASE_PC/cutil.h" ;
+	INCLUDES "$(PROJECT_DIR)/../main.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/../BASE_PC/Dohickies/CpbxLexFile.h" ;
+	INCLUDES "$(PROJECT_DIR)/../main.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/CMaker.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/../BASE_PC/Dohickies/CpbxLexFile.h" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/Dohickies/CLexFile.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/Dohickies/CLexFile.h" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/Dohickies/CTokFile.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/Dohickies/CTokFile.h" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/../BASE_PC/CBufFile.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/../BASE_PC/CBufFile.h" : "/usr/include/stdio.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/../BASE_PC/CBufFile.h" : "/usr/include/string.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/../BASE_PC/CBufFile.h" : "/usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdarg.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/CMaker.h" : "/usr/include/stdlib.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/CMaker.h" : "/usr/include/stdio.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/CMaker.h" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/CPBPROJ.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/CPBPROJ.h" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/../BASE_PC/Dohickies/CSymbol.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/CPBPROJ.h" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/../BASE_PC/Dohickies/CpbxLexFile.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/../BASE_PC/Dohickies/CSymbol.h" : "/usr/include/stdlib.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/PBTOMAKE/../BASE_PC/Dohickies/CSymbol.h" : "/usr/include/string.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/CBufFile.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/CBufFile.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/CBufFile.cp" : "/usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdarg.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/CBufFile.h" : "/usr/include/stdio.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/CBufFile.h" : "/usr/include/string.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/CBufFile.h" : "/usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdarg.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/Dohickies/CSymbol.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/Dohickies/CSymbol.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/Dohickies/CSymbol.h" : "/usr/include/stdlib.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/Dohickies/CSymbol.h" : "/usr/include/string.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/Dohickies/CLexFile.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/Dohickies/CLexFile.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/Dohickies/CLexFile.cp" : "/usr/include/ctype.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/Dohickies/CpbxLexFile.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/Dohickies/CpbxLexFile.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/Dohickies/CpbxLexFile.cp" : "/usr/include/ctype.h" ;
+	INCLUDES "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/Dohickies/CpbxLexFile.h" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/Dohickies/CLexFile.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/Dohickies/CTokFile.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/Dohickies/CTokFile.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/Dohickies/CTokFile.cp" : "/usr/include/ctype.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/cutil.cp" : "/usr/include/stdio.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/cutil.cp" : "/usr/include/string.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/cutil.cp" : "/usr/include/stdlib.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/cutil.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/base.h" ;
+	INCLUDES "$(PROJECT_DIR)/../BASE_PC/cutil.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/BASE_PC/cutil.h" ;
+	INCLUDES "$(PROJECT_DIR)/../CMaker.cp" : "/usr/include/stdlib.h" ;
+	INCLUDES "$(PROJECT_DIR)/../CMaker.cp" : "/usr/include/stdio.h" ;
+	INCLUDES "$(PROJECT_DIR)/../CMaker.cp" : "/usr/include/time.h" ;
+	INCLUDES "$(PROJECT_DIR)/../CMaker.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/CPBPROJ.h" ;
+	INCLUDES "$(PROJECT_DIR)/../CMaker.cp" : "/Users/jim/Dev/TOMAKE-Xcode2.1/Source/CMaker.h" ;
+}
+
+DefineHeaderDependencies "<pbtomake>pbtomake$(TOOL_SUFFIX)" ;
+

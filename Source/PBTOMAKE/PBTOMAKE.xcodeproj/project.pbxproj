@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3827F97D09C466BE00E3FB6A /* CBufFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F76CFA3C02F6D2B3019A8FC3 /* CBufFile.h */; };
+		3827F97E09C466BE00E3FB6A /* tgtypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F76CFA3F02F6D2B3019A8FC3 /* tgtypes.h */; };
+		3827F97F09C466BE00E3FB6A /* CSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = F76CFA4102F6D2B3019A8FC3 /* CSymbol.h */; };
+		3827F98009C466BE00E3FB6A /* CLexFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F76CFA4302F6D2B3019A8FC3 /* CLexFile.h */; };
+		3827F98109C466BE00E3FB6A /* CpbxLexFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F76CFA3902F6D2B3019A8FC3 /* CpbxLexFile.h */; };
+		3827F98209C466BE00E3FB6A /* CTokFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F76CFA4502F6D2B3019A8FC3 /* CTokFile.h */; };
+		3827F98309C466BE00E3FB6A /* CMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = F76CFA5F02F6FA94019A8FC3 /* CMaker.h */; };
+		3827F98409C466BE00E3FB6A /* base.h in Headers */ = {isa = PBXBuildFile; fileRef = 384FAE2905F9F87300573E32 /* base.h */; };
+		3827F98509C466BE00E3FB6A /* cutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 384FAE2E05F9F88500573E32 /* cutil.h */; };
+		3827F98709C466BE00E3FB6A /* main.cp in Sources */ = {isa = PBXBuildFile; fileRef = F76CFA3302F6D23D019A8FC3 /* main.cp */; };
+		3827F98809C466BE00E3FB6A /* CBufFile.cp in Sources */ = {isa = PBXBuildFile; fileRef = F76CFA3B02F6D2B3019A8FC3 /* CBufFile.cp */; };
+		3827F98909C466BE00E3FB6A /* CSymbol.cp in Sources */ = {isa = PBXBuildFile; fileRef = F76CFA4002F6D2B3019A8FC3 /* CSymbol.cp */; };
+		3827F98A09C466BE00E3FB6A /* CLexFile.cp in Sources */ = {isa = PBXBuildFile; fileRef = F76CFA4202F6D2B3019A8FC3 /* CLexFile.cp */; };
+		3827F98B09C466BE00E3FB6A /* CpbxLexFile.cp in Sources */ = {isa = PBXBuildFile; fileRef = F76CFA3802F6D2B3019A8FC3 /* CpbxLexFile.cp */; };
+		3827F98C09C466BE00E3FB6A /* CTokFile.cp in Sources */ = {isa = PBXBuildFile; fileRef = F76CFA4402F6D2B3019A8FC3 /* CTokFile.cp */; };
+		3827F98D09C466BE00E3FB6A /* cutil.cp in Sources */ = {isa = PBXBuildFile; fileRef = 384FAE2D05F9F88500573E32 /* cutil.cp */; };
+		3827F98E09C466BE00E3FB6A /* CMaker.cp in Sources */ = {isa = PBXBuildFile; fileRef = 384D0894085777B400D79561 /* CMaker.cp */; };
+		3856A21A0AE0F5CA0027D235 /* CTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 3856A2190AE0F5CA0027D235 /* CTarget.h */; };
+		3856A2210AE0F72C0027D235 /* CTarget.cp in Sources */ = {isa = PBXBuildFile; fileRef = 3856A2200AE0F72C0027D235 /* CTarget.cp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3827F99509C466BE00E3FB6A /* pbtomake */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = pbtomake; sourceTree = BUILT_PRODUCTS_DIR; };
+		384BB39706162D62009254A8 /* articleII.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = articleII.rtf; path = ../../Docs/articleII.rtf; sourceTree = SOURCE_ROOT; };
+		384D0894085777B400D79561 /* CMaker.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CMaker.cp; path = ../CMaker.cp; sourceTree = SOURCE_ROOT; };
+		384FAE2205F9F80200573E32 /* article.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = article.rtf; path = /Users/jim/DEV/TOMAKE10.3/Docs/article.rtf; sourceTree = "<absolute>"; };
+		384FAE2905F9F87300573E32 /* base.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = base.h; path = ../BASE_PC/base.h; sourceTree = SOURCE_ROOT; };
+		384FAE2D05F9F88500573E32 /* cutil.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = cutil.cp; path = ../BASE_PC/cutil.cp; sourceTree = SOURCE_ROOT; };
+		384FAE2E05F9F88500573E32 /* cutil.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = cutil.h; path = ../BASE_PC/cutil.h; sourceTree = SOURCE_ROOT; };
+		3856A2190AE0F5CA0027D235 /* CTarget.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CTarget.h; path = ../CTarget.h; sourceTree = SOURCE_ROOT; };
+		3856A2200AE0F72C0027D235 /* CTarget.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CTarget.cp; path = ../CTarget.cp; sourceTree = SOURCE_ROOT; };
+		38D5DB330423C3B500A800A4 /* readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = readme.rtf; path = /Users/jim/DEV/TOMAKE10.3/Docs/readme.rtf; sourceTree = "<absolute>"; };
+		F6005EA302FBF10401A800A4 /* manual.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = manual.rtf; path = /Users/jim/DEV/TOMAKE10.3/Docs/manual.rtf; sourceTree = "<absolute>"; };
+		F76CFA3302F6D23D019A8FC3 /* main.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cp; path = ../main.cp; sourceTree = SOURCE_ROOT; };
+		F76CFA3802F6D2B3019A8FC3 /* CpbxLexFile.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CpbxLexFile.cp; path = ../BASE_PC/Dohickies/CpbxLexFile.cp; sourceTree = SOURCE_ROOT; };
+		F76CFA3902F6D2B3019A8FC3 /* CpbxLexFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CpbxLexFile.h; path = ../BASE_PC/Dohickies/CpbxLexFile.h; sourceTree = SOURCE_ROOT; };
+		F76CFA3B02F6D2B3019A8FC3 /* CBufFile.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CBufFile.cp; path = ../BASE_PC/CBufFile.cp; sourceTree = SOURCE_ROOT; };
+		F76CFA3C02F6D2B3019A8FC3 /* CBufFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CBufFile.h; path = ../BASE_PC/CBufFile.h; sourceTree = SOURCE_ROOT; };
+		F76CFA3F02F6D2B3019A8FC3 /* tgtypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = tgtypes.h; path = ../BASE_PC/tgtypes.h; sourceTree = SOURCE_ROOT; };
+		F76CFA4002F6D2B3019A8FC3 /* CSymbol.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CSymbol.cp; path = ../BASE_PC/Dohickies/CSymbol.cp; sourceTree = SOURCE_ROOT; };
+		F76CFA4102F6D2B3019A8FC3 /* CSymbol.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CSymbol.h; path = ../BASE_PC/Dohickies/CSymbol.h; sourceTree = SOURCE_ROOT; };
+		F76CFA4202F6D2B3019A8FC3 /* CLexFile.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CLexFile.cp; path = ../BASE_PC/Dohickies/CLexFile.cp; sourceTree = SOURCE_ROOT; };
+		F76CFA4302F6D2B3019A8FC3 /* CLexFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CLexFile.h; path = ../BASE_PC/Dohickies/CLexFile.h; sourceTree = SOURCE_ROOT; };
+		F76CFA4402F6D2B3019A8FC3 /* CTokFile.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CTokFile.cp; path = ../BASE_PC/Dohickies/CTokFile.cp; sourceTree = SOURCE_ROOT; };
+		F76CFA4502F6D2B3019A8FC3 /* CTokFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CTokFile.h; path = ../BASE_PC/Dohickies/CTokFile.h; sourceTree = SOURCE_ROOT; };
+		F76CFA5F02F6FA94019A8FC3 /* CMaker.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CMaker.h; path = ../CMaker.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3827F98F09C466BE00E3FB6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0249A662FF388D9811CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB7794FE84155DC02AAC07 /* PBTOMAKE */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				38DA9ED905F48A250080FBE6 /* DOCS */,
+				0249A662FF388D9811CA2CEA /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = PBTOMAKE;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F76CFA3302F6D23D019A8FC3 /* main.cp */,
+				F76CFA2F02F6D23D019A8FC3 /* PBXPROJ */,
+				F76CFA3202F6D23D019A8FC3 /* BASE_PC */,
+			);
+			name = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3827F99509C466BE00E3FB6A /* pbtomake */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38DA9ED905F48A250080FBE6 /* DOCS */ = {
+			isa = PBXGroup;
+			children = (
+				384BB39706162D62009254A8 /* articleII.rtf */,
+				384FAE2205F9F80200573E32 /* article.rtf */,
+				F6005EA302FBF10401A800A4 /* manual.rtf */,
+				38D5DB330423C3B500A800A4 /* readme.rtf */,
+			);
+			name = DOCS;
+			sourceTree = "<group>";
+		};
+		F76CFA2F02F6D23D019A8FC3 /* PBXPROJ */ = {
+			isa = PBXGroup;
+			children = (
+				384D0894085777B400D79561 /* CMaker.cp */,
+				F76CFA5F02F6FA94019A8FC3 /* CMaker.h */,
+				3856A2200AE0F72C0027D235 /* CTarget.cp */,
+				3856A2190AE0F5CA0027D235 /* CTarget.h */,
+				F76CFA3802F6D2B3019A8FC3 /* CpbxLexFile.cp */,
+				F76CFA3902F6D2B3019A8FC3 /* CpbxLexFile.h */,
+			);
+			name = PBXPROJ;
+			sourceTree = "<group>";
+		};
+		F76CFA3202F6D23D019A8FC3 /* BASE_PC */ = {
+			isa = PBXGroup;
+			children = (
+				384FAE2905F9F87300573E32 /* base.h */,
+				384FAE2D05F9F88500573E32 /* cutil.cp */,
+				384FAE2E05F9F88500573E32 /* cutil.h */,
+				F76CFA3B02F6D2B3019A8FC3 /* CBufFile.cp */,
+				F76CFA3C02F6D2B3019A8FC3 /* CBufFile.h */,
+				F76CFA3F02F6D2B3019A8FC3 /* tgtypes.h */,
+				F76CFA4002F6D2B3019A8FC3 /* CSymbol.cp */,
+				F76CFA4102F6D2B3019A8FC3 /* CSymbol.h */,
+				F76CFA4202F6D2B3019A8FC3 /* CLexFile.cp */,
+				F76CFA4302F6D2B3019A8FC3 /* CLexFile.h */,
+				F76CFA4402F6D2B3019A8FC3 /* CTokFile.cp */,
+				F76CFA4502F6D2B3019A8FC3 /* CTokFile.h */,
+			);
+			name = BASE_PC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3827F97C09C466BE00E3FB6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3827F97D09C466BE00E3FB6A /* CBufFile.h in Headers */,
+				3827F97E09C466BE00E3FB6A /* tgtypes.h in Headers */,
+				3827F97F09C466BE00E3FB6A /* CSymbol.h in Headers */,
+				3827F98009C466BE00E3FB6A /* CLexFile.h in Headers */,
+				3827F98109C466BE00E3FB6A /* CpbxLexFile.h in Headers */,
+				3827F98209C466BE00E3FB6A /* CTokFile.h in Headers */,
+				3827F98309C466BE00E3FB6A /* CMaker.h in Headers */,
+				3827F98409C466BE00E3FB6A /* base.h in Headers */,
+				3827F98509C466BE00E3FB6A /* cutil.h in Headers */,
+				3856A21A0AE0F5CA0027D235 /* CTarget.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3827F97B09C466BE00E3FB6A /* PBTOMAKE (Upgraded) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3827F99109C466BE00E3FB6A /* Build configuration list for PBXNativeTarget "PBTOMAKE (Upgraded)" */;
+			buildPhases = (
+				3827F97C09C466BE00E3FB6A /* Headers */,
+				3827F98609C466BE00E3FB6A /* Sources */,
+				3827F98F09C466BE00E3FB6A /* Frameworks */,
+				3827F99009C466BE00E3FB6A /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PBTOMAKE (Upgraded)";
+			productInstallPath = "$(HOME)/bin";
+			productName = PBTOMAKE;
+			productReference = 3827F99509C466BE00E3FB6A /* pbtomake */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 384D081908576CD000D79561 /* Build configuration list for PBXProject "PBTOMAKE" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* PBTOMAKE */;
+			projectDirPath = "";
+			targets = (
+				3827F97B09C466BE00E3FB6A /* PBTOMAKE (Upgraded) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXRezBuildPhase section */
+		3827F99009C466BE00E3FB6A /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3827F98609C466BE00E3FB6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3827F98709C466BE00E3FB6A /* main.cp in Sources */,
+				3827F98809C466BE00E3FB6A /* CBufFile.cp in Sources */,
+				3827F98909C466BE00E3FB6A /* CSymbol.cp in Sources */,
+				3827F98A09C466BE00E3FB6A /* CLexFile.cp in Sources */,
+				3827F98B09C466BE00E3FB6A /* CpbxLexFile.cp in Sources */,
+				3827F98C09C466BE00E3FB6A /* CTokFile.cp in Sources */,
+				3827F98D09C466BE00E3FB6A /* cutil.cp in Sources */,
+				3827F98E09C466BE00E3FB6A /* CMaker.cp in Sources */,
+				3856A2210AE0F72C0027D235 /* CTarget.cp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3827F99209C466BE00E3FB6A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pbtomake;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		3827F99309C466BE00E3FB6A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pbtomake;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		3827F99409C466BE00E3FB6A /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pbtomake;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		384D081A08576CD000D79561 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		384D081B08576CD000D79561 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+		384D081C08576CD000D79561 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3827F99109C466BE00E3FB6A /* Build configuration list for PBXNativeTarget "PBTOMAKE (Upgraded)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3827F99209C466BE00E3FB6A /* Development */,
+				3827F99309C466BE00E3FB6A /* Deployment */,
+				3827F99409C466BE00E3FB6A /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		384D081908576CD000D79561 /* Build configuration list for PBXProject "PBTOMAKE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				384D081A08576CD000D79561 /* Development */,
+				384D081B08576CD000D79561 /* Deployment */,
+				384D081C08576CD000D79561 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
