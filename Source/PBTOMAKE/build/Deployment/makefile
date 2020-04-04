@@ -10,7 +10,7 @@
 # Macros
 #
 
-CC = /usr/bin/g++-4.0
+CC = /usr/local/bin/g++-4.9
 CC_OPTIONS = 
 LNK_OPTIONS = \
 		-framework IOKit\
